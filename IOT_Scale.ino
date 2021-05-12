@@ -20,7 +20,7 @@ const char * myWriteAPIKey = "YK27OP1RWOH78AZE";   //Your Write API Key
 
 HX711_ADC LoadCell(5,4);
 
-float calibration_factor = 100; // this calibration factor is adjusted according to my load cell
+float calibration_factor = -90000; // this calibration factor is adjusted according to my load cell
 float units;
 //float ounces;
 
